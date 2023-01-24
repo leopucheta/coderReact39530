@@ -1,0 +1,36 @@
+#root{
+    margin-bottom: 100vw;
+}
+
+/*Logo*/
+.bibiController{
+    display: flex;
+    
+    align-items: flex-end;
+}
+
+.bibiController p{
+    margin: 1rem;
+}
+
+/*CartWidget*/
+.bibicart{
+    display: flex;
+    padding: 1rem;
+}
+.bibicart :hover{
+    opacity: 0.75;
+    
+}
+
+/*ItemListContainer*/
+.itemListCont{
+    border: solid;
+    padding: 1.5rem;
+    margin: 7rem;
+}
+
+.itemListCont p{
+    text-align: center;
+}
+
