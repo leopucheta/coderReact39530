@@ -13,4 +13,5 @@ const LogoNavbar = () => {
     );
 }
 
+
 export default LogoNavbar;
