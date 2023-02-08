@@ -25,8 +25,9 @@ function App() {
   <>
       <Navbar/>
 
-      <ItemListContainer itemListContainer={"ESTO ES UN ITEM LIST CONTAINER"} />
+      <ItemListContainer/>
 
+    
   </>
     
   );

@@ -1,0 +1,94 @@
+[
+        {
+            "id": 1,
+            "idCategoria":1,
+            "nombre": "Silla Gamer Rosa",
+            "marca" : "Racing",
+            "modelo": "SGR01",
+            "precio": 50000,
+            "stock": 30,
+            "img":"sillarosa.jpg"
+        },
+
+        {
+            "id": 2,
+            "idCategoria":1,
+            "nombre": "Silla Gamer Negra",
+            "marca" : "Racing",
+            "modelo": "SGN01",
+            "precio": 50000,
+            "stock": 30,
+            "img":"sillanegra.jpg"
+        },
+        {
+            "id": 1,
+            "idCategoria":2,
+            "nombre": "Teclado Blanco",
+            "marca" : "HP",
+            "modelo": "TCLWHITE01",
+            "precio": 10000,
+            "stock": 30,
+            "img":"tecladoblanco.jpg"
+        },
+        {
+            "id": 1,
+            "idCategoria":2,
+            "nombre": "Teclado negro",
+            "marca" : "HP",
+            "modelo": "TCLBLACK01",
+            "precio": 10000,
+            "stock": 30,
+            "img":"tecladonegro.jpg"
+        },
+        {
+            "id": 1,
+            "idCategoria":3,
+            "nombre": "Joystick Blanco",
+            "marca" : "Sony",
+            "modelo": "JOYWHITE01",
+            "precio": 25000,
+            "stock": 30,
+            "img":"joyblanco.jpg"
+        },
+        {
+            "id": 1,
+            "idCategoria":3,
+            "nombre": "Joystick Azul",
+            "marca" : "Sony",
+            "modelo": "JOYBLUE01",
+            "precio": 25000,
+            "stock": 30,
+            "img":"joyazul.jpg"
+        },
+        {
+            "id": 1,
+            "idCategoria":3,
+            "nombre": "Auriculares RGB",
+            "marca" : "Racing",
+            "modelo": "AURIRGB",
+            "precio": 8000,
+            "stock": 30,
+            "img":"aurirgb.jpg"
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
