@@ -34,3 +34,30 @@
     text-align: center;
 }
 
+/*Cards Productos*/
+
+.cardProductos{
+    margin: 2rem;
+    padding: 2rem;    
+    justify-content: center;
+}
+
+.cardProducto{
+    width: 18rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.cardBody{
+    text-align: center;
+}
+
+.card-img{
+    border-radius: 80px;
+}
+
+/*btn-dark*/
+
+.btn-dark{
+    margin: 1rem;
+}

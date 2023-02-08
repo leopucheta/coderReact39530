@@ -21,7 +21,7 @@
             "img":"sillanegra.jpg"
         },
         {
-            "id": 1,
+            "id": 3,
             "idCategoria":2,
             "nombre": "Teclado Blanco",
             "marca" : "HP",
@@ -31,7 +31,7 @@
             "img":"tecladoblanco.jpg"
         },
         {
-            "id": 1,
+            "id": 4,
             "idCategoria":2,
             "nombre": "Teclado negro",
             "marca" : "HP",
@@ -41,7 +41,7 @@
             "img":"tecladonegro.jpg"
         },
         {
-            "id": 1,
+            "id": 5,
             "idCategoria":3,
             "nombre": "Joystick Blanco",
             "marca" : "Sony",
@@ -51,7 +51,7 @@
             "img":"joyblanco.jpg"
         },
         {
-            "id": 1,
+            "id": 6,
             "idCategoria":3,
             "nombre": "Joystick Azul",
             "marca" : "Sony",
@@ -61,7 +61,7 @@
             "img":"joyazul.jpg"
         },
         {
-            "id": 1,
+            "id": 7,
             "idCategoria":3,
             "nombre": "Auriculares RGB",
             "marca" : "Racing",
