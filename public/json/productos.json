@@ -1,7 +1,7 @@
 [
         {
             "id": 1,
-            "idCategoria":1,
+            "idCategoria":"sillasgamer",
             "nombre": "Silla Gamer Rosa",
             "marca" : "Racing",
             "modelo": "SGR01",
@@ -12,7 +12,7 @@
 
         {
             "id": 2,
-            "idCategoria":1,
+            "idCategoria":"sillasgamer",
             "nombre": "Silla Gamer Negra",
             "marca" : "Racing",
             "modelo": "SGN01",
@@ -22,7 +22,7 @@
         },
         {
             "id": 3,
-            "idCategoria":2,
+            "idCategoria":"tecladosymouse",
             "nombre": "Teclado Blanco",
             "marca" : "HP",
             "modelo": "TCLWHITE01",
@@ -32,7 +32,7 @@
         },
         {
             "id": 4,
-            "idCategoria":2,
+            "idCategoria":"tecladosymouse",
             "nombre": "Teclado negro",
             "marca" : "HP",
             "modelo": "TCLBLACK01",
@@ -42,7 +42,7 @@
         },
         {
             "id": 5,
-            "idCategoria":3,
+            "idCategoria":"accesorios",
             "nombre": "Joystick Blanco",
             "marca" : "Sony",
             "modelo": "JOYWHITE01",
@@ -52,7 +52,7 @@
         },
         {
             "id": 6,
-            "idCategoria":3,
+            "idCategoria":"accesorios",
             "nombre": "Joystick Azul",
             "marca" : "Sony",
             "modelo": "JOYBLUE01",
@@ -62,7 +62,7 @@
         },
         {
             "id": 7,
-            "idCategoria":3,
+            "idCategoria":"accesorios",
             "nombre": "Auriculares RGB",
             "marca" : "Racing",
             "modelo": "AURIRGB",

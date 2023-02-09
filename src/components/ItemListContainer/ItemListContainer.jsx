@@ -15,7 +15,7 @@ const ItemListContainer = ({itemListContainer}) => {
             fetch ('../json/productos.json')
             .then (response => response.json())
             .then (items => {
-                const products = items.filter(prod => prod.idCategoria === parseInt(idCategoria))
+                const products = items.filter(prod => prod.idCategoria === idCategoria)
                 const productsList = ItemList ({products}) //Array de productos
                 setProductos (productsList)
             }  )
