@@ -7,7 +7,7 @@
             "modelo": "SGR01",
             "precio": 50000,
             "stock": 30,
-            "img":"sillarosa.jpg"
+            "img":"https://firebasestorage.googleapis.com/v0/b/react-39530-2023-3bbd2.appspot.com/o/sillarosa.jpg?alt=media&token=9f218aee-64ac-49d9-a127-f6819f89257c"
         },
 
         {
@@ -18,7 +18,7 @@
             "modelo": "SGN01",
             "precio": 50000,
             "stock": 30,
-            "img":"sillanegra.jpg"
+            "img":"https://firebasestorage.googleapis.com/v0/b/react-39530-2023-3bbd2.appspot.com/o/sillanegra.jpg?alt=media&token=4ac1796e-6fb9-4f0b-847b-d5d4f1c19d93"
         },
         {
             "id": 3,
@@ -28,7 +28,7 @@
             "modelo": "TCLWHITE01",
             "precio": 10000,
             "stock": 30,
-            "img":"tecladoblanco.jpg"
+            "img":"https://firebasestorage.googleapis.com/v0/b/react-39530-2023-3bbd2.appspot.com/o/tecladoblanco.jpg?alt=media&token=e4a51f50-e44c-4d0b-bdda-4e74093e7264"
         },
         {
             "id": 4,
@@ -38,7 +38,7 @@
             "modelo": "TCLBLACK01",
             "precio": 10000,
             "stock": 30,
-            "img":"tecladonegro.jpg"
+            "img":"https://firebasestorage.googleapis.com/v0/b/react-39530-2023-3bbd2.appspot.com/o/tecladonegro.jpg?alt=media&token=b92bbfd4-7aaa-48fe-9291-c03dfdd017c8"
         },
         {
             "id": 5,
@@ -48,7 +48,7 @@
             "modelo": "JOYWHITE01",
             "precio": 25000,
             "stock": 30,
-            "img":"joyblanco.jpg"
+            "img":"https://firebasestorage.googleapis.com/v0/b/react-39530-2023-3bbd2.appspot.com/o/joyblanco.jpg?alt=media&token=2c35c4bd-a56b-4eab-a47a-0e9f898d47ba"
         },
         {
             "id": 6,
@@ -58,7 +58,7 @@
             "modelo": "JOYBLUE01",
             "precio": 25000,
             "stock": 30,
-            "img":"joyazul.jpg"
+            "img":"https://firebasestorage.googleapis.com/v0/b/react-39530-2023-3bbd2.appspot.com/o/joyazul.jpg?alt=media&token=16a39ce2-76b2-41ab-826a-62819ecbd680"
         },
         {
             "id": 7,
@@ -68,7 +68,7 @@
             "modelo": "AURIRGB",
             "precio": 8000,
             "stock": 30,
-            "img":"aurirgb.jpg"
+            "img":"https://firebasestorage.googleapis.com/v0/b/react-39530-2023-3bbd2.appspot.com/o/aurirgb.jpg?alt=media&token=8b140360-e348-4c6d-a180-a2177d30a48b"
         }
         
 

@@ -1,44 +1,44 @@
-import React from 'react';
-import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import ItemList from '../ItemList/ItemList';
+import {useState,useEffect} from 'react'
+import { useParams } from 'react-router-dom'
+//Componentes
+import { ItemList } from '../ItemList/ItemList'
 
-const ItemListContainer = ({itemListContainer}) => {
+//Context
+import { useDarkModeContext } from '../../context/DarkModeContext'
 
-    const [productos, setProductos] = useState ([])
+
+//Firebase
+import { getProductos } from '../../firebase/firebase'
+
+export const ItemListContainer = () => {
+    const [productos, setProductos] = useState([])
     const {idCategoria}= useParams()
-
-
+    const {darkMode} = useDarkModeContext()
+    console.log(darkMode)
     useEffect(() => {
-        if(idCategoria){
-
-            fetch ('../json/productos.json')
-            .then (response => response.json())
-            .then (items => {
-                const products = items.filter(prod => prod.idCategoria === idCategoria)
-                const productsList = ItemList ({products}) //Array de productos
-                setProductos (productsList)
-            }  )
-        }else{
-            
-
-        fetch ('./json/productos.json')
-        .then (response => response.json())
-        .then (products => {
-            const productsList = ItemList ({products}) //Array de productos
-            setProductos (productsList)
-        }  )
-
+        if(idCategoria) {
+            getProductos()
+            .then(items => {
+                const products = items.filter(prod => prod.stock > 0 )
+                const productsList = <ItemList products={products} plantilla={'item'}/> //Array de productos en JSX           
+                setProductos(productsList)
+            })
+        } else {
+            getProductos()
+            .then(items => {   
+                const products = items.filter(prod => prod.stock > 0)           
+                const productsList = <ItemList products={products} plantilla={'item'}/> //Array de productos en JSX        
+                setProductos(productsList)
+            })
         }
-
-    },[idCategoria])
-
-    return (  
+        
+    }, [idCategoria])
+    //[] cuando se renderiza
+    //[prop] cuando se renderiza y cuando se actualiza
+    return (
         <div className='row cardProductos'>
-             {productos}
+            {productos}
         </div>
-            
-    );
+    )
 }
-
 export default ItemListContainer;

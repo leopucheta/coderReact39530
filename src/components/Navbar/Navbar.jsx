@@ -4,6 +4,7 @@ import Categorias from './Categorias/Categorias';
 import Secciones from './Secciones/Secciones';
 import SearchBar from './SearchBar/SearchBar';
 import LogoNavbar from '../LogoNavbar/LogoNavbar';
+import { BotonDarkMode } from './BotonDarkMode/BotonDarkMode';
 
 const Navbar = () => {
     return (
@@ -21,7 +22,8 @@ const Navbar = () => {
           <Secciones/> 
           <Categorias/>      
         </ul>
-        <CartWidget cantCarrito={5}/>
+        <CartWidget/>
+        <BotonDarkMode/> 
         <SearchBar/>        
       </div>
       

@@ -1,22 +1,24 @@
-import React from 'react';
-import { useState } from 'react';
-
- const ItemCount = ({valInicial, stock}) => {
-
+import { useState } from "react"
+import {toast} from 'react-toastify'
+export const ItemCount = ({valInicial, stock, onAdd}) => {
+    
     const [contador, setContador] = useState(valInicial)
+            //Var       //Modificar var     //Estado inicial
 
-    const sumar = () => (contador < stock) && setContador (contador + 1 )
-    const restar = () => (contador > valInicial) && setContador (contador - 1)
+    const sumar = () =>  (contador < stock) && setContador(contador + 1) //contador = contador + 1
+    const restar = () => (contador > valInicial)  && setContador(contador - 1)  //Operador ternario sin else
+    const agregarCarrito = () => {
+      onAdd(contador)
+      toast(`🦄 Agregaste ${contador} productos al carrito!`) 
+    }
 
-
-   
-    return (
-        <>
-            <button className='btn btn-dark'onClick={ () => sumar() } >+</button>
-              {contador}
-            <button className='btn btn-dark' onClick={ () => restar() } >-</button>
-        </>
-    );
+  return (
+    <>
+        <button className="btn btn-dark" onClick={() => restar()}>-</button>
+          {contador}
+        <button className="btn btn-dark" onClick={() => sumar()}>+</button>
+        <button className="btn btn-dark" onClick={() => agregarCarrito()}>Agregar al carrito</button>
+    </>
+  )
 }
-
 export default ItemCount;

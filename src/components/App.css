@@ -50,6 +50,14 @@
 
 .cardBody{
     text-align: center;
+    
+    
+}
+
+.cardBodyDark{
+    text-align: center;   
+    color: rgb(255, 255, 255);
+    background-color: rgba(236, 62, 224, 0.412);
 }
 
 .card-img{
@@ -67,3 +75,48 @@
 span.nav-link{
     cursor: pointer;
 }
+
+/*Dark Mode*/
+
+.darkMode{
+    background-color: rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255) ;
+    
+}
+
+/*Item Detail*/
+
+.img-fluid{
+    margin: 1rem;
+
+}
+
+.itemDetail{
+    max-width: 80%;
+    margin-top: 2rem;
+    border: solid 2px;
+    padding: 1rem;
+
+}
+
+.bodyItemDetailDark{
+    background-color: rgba(157, 0, 171, 0.76);
+    border: solid rgb(255, 31, 199);
+    
+
+}
+
+
+.cartContainer {
+    margin-top: 3%;
+    margin-left: 26,5%;
+}
+
+.divButtons button {
+    margin:4px;
+}
+
+.cardCart {
+    max-width: 640px;
+}
+
