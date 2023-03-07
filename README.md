@@ -31,7 +31,7 @@ localhost: 3000
  
 [DEMO]()
 
-## Vercel
+## Subida a servidor
 [VERCEL]()
 
 
@@ -41,4 +41,4 @@ localhost: 3000
 - [x]~~Linkear logo al Home~~
 - [x]~~Subida a Vercel~~
 - [x]~~Validaciones del formulario en el carrito~~
-- [ ]Crear footer
+- [ ] Crear footer
