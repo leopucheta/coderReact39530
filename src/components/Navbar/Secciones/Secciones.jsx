@@ -15,3 +15,4 @@ const Secciones = React.memo (() => {
 })
 
 export default Secciones;
+
