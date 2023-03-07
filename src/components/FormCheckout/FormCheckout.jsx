@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
+//Context
+import { useDarkModeContext } from '../../context/DarkModeContext';
+
 const FormCheckout = ({consultarFormulario, confirmation, setConfirmation}) => {
+
+    const {darkMode} = useDarkModeContext()
+
     const [client,setClient] = useState(
         {
             nombre: '',
@@ -21,8 +27,10 @@ const FormCheckout = ({consultarFormulario, confirmation, setConfirmation}) => {
         setConfirmation(document.getElementById('email').value===document.getElementById('repEmail').value)
     }, [handleInputChange])
 
+    // <div className= {row g-0 ${darkMode ? '' : 'bodyItemDetailDark'}   `}  >
+
     return (
-        <div className="container" style={{marginTop:"20px"}}>
+        <div className= {`container  style={{marginTop:"20px"}}  ${darkMode ? '' : 'bodyItemDetailDark'}              `}   >
         <form onSubmit={consultarFormulario} >
             <div className="mb-3">
             <label htmlFor="nombre" className="form-label">Nombre y apellido</label>
@@ -38,12 +46,12 @@ const FormCheckout = ({consultarFormulario, confirmation, setConfirmation}) => {
         </div>
 
         {
-                        !confirmation && <span id='incorrectEmail'>Deben coincidir los emails</span>
+                        !confirmation && <span id='incorrectEmail'> ⚠ Deben coincidir los emails ⚠ </span>
                     }
 
         <div className="mb-3">
-            <label htmlFor="celular" className="form-label">Numero telefonico</label>
-            <input type="number" required onChange={handleInputChange} className="form-control" name="celular" />
+            <label htmlFor="celular" className="form-label">Numero de telefono</label>
+            <input type="tel" required onChange={handleInputChange} className="form-control" name="celular" />
         </div>
         <div className="mb-3">
             <label htmlFor="direccion" className="form-label">Direccion</label>

@@ -29,16 +29,18 @@ localhost: 3000
     
 ## Video
  
-[DEMO]()
+[DEMO](https://drive.google.com/file/d/1txYuPWEKp615Q9aPiIFKnKCdmf3B-YML/view?usp=share_link)
 
 ## Subida a servidor
-[VERCEL]()
+[VERCEL](https://coder-react39530.vercel.app/)
 
 
 ## Roadmap
 
-- [ ] Perfeccionar estilos del DarkMode
+- [ ] Cambiar nombre de DarkMode a LightMode
+- [ ] Perfeccionar estilos del LightMode
 - [x]~~Linkear logo al Home~~
 - [x]~~Subida a Vercel~~
-- [x]~~Validaciones del formulario en el carrito~~
+- [x]~~Validaciones del formulario~~
+- [ ]  Implementar Buscador
 - [ ] Crear footer

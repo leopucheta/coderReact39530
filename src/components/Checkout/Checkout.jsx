@@ -7,7 +7,9 @@ import { createOrdenCompra, getOrdenCompra, getProducto, updateProducto } from "
 import FormCheckout from "../FormCheckout/FormCheckout"
 
 
+
 export const Checkout = () => {
+
     const {carrito, emptyCart, totalPrice} = useCarritoContext()
     const datosFormulario = React.useRef()
     const [ confirmation, setConfirmation ] = useState(false)

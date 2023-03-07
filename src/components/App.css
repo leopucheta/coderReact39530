@@ -2,6 +2,25 @@
     margin-bottom: 100vw;
 }
 
+
+h2{
+    font-size: calc(1.325rem + .9vw);
+    text-align: center;
+    padding: 1rem; 
+    justify-content: flex-start;
+}
+
+.nav-link {
+    text-align-last: center;
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
 /*Logo*/
 .bibiController{
     display: flex;
@@ -48,6 +67,13 @@
     margin: 1rem;
 }
 
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    text-align-last: center;
+}
+
 .cardBody{
     text-align: center;
     
@@ -79,9 +105,16 @@ span.nav-link{
 /*Dark Mode*/
 
 .darkMode{
-    background-color: rgb(255, 255, 255) ;
+    background-color: rgba(178, 147, 213, 0.803) ;
     color: rgb(255, 255, 255) ;
     
+}
+
+
+/*FormCheckoutDark*/
+.formCheckoutDark{
+    background-color: rgb(127, 127, 127) ;
+    color: rgb(163, 163, 163) ;
 }
 
 /*Item Detail*/
@@ -93,15 +126,17 @@ span.nav-link{
 
 .itemDetail{
     max-width: 80%;
-    margin-top: 2rem;
-    border: solid 2px;
-    padding: 1rem;
+    margin-top: 2rem;    
+    padding: 0rem;
+    bottom: 1rem;
 
 }
 
 .bodyItemDetailDark{
-    background-color: rgba(157, 0, 171, 0.76);
-    border: solid rgb(255, 31, 199);
+    background-color: rgba(178, 147, 213, 0);
+    padding: 1rem;
+    
+   
     
 
 }
@@ -118,5 +153,17 @@ span.nav-link{
 
 .cardCart {
     max-width: 640px;
+}
+
+.img-fluid{
+    border-radius: 20%;
+    box-shadow: 3px 0px 14px 0px black;
+}
+
+#incorrectEmail{
+    color: red;
+    display: flex;
+    justify-content: center;
+    
 }
 
